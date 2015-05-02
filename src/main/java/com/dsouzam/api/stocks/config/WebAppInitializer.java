@@ -1,4 +1,4 @@
-package com.dsouzam.api.stocks.initializers;
+package com.dsouzam.api.stocks.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
