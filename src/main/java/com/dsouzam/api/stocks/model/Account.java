@@ -2,15 +2,14 @@ package com.dsouzam.api.stocks.model;
 
 import java.util.List;
 
-import com.dsouzam.api.stocks.model.data.AccountData;
-import com.dsouzam.api.stocks.model.data.NamedURI;
+import com.dsouzam.api.stocks.model.dto.AccountDTO;
 
 public class Account {
 
-	private AccountData accountData;
+	private AccountDTO accountData;
 	private List<NamedURI> watchLists;
 	
-	public Account(AccountData accountData) {
+	public Account(AccountDTO accountData) {
 		this.accountData = accountData;
 	}
 	

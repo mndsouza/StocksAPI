@@ -1,4 +1,4 @@
-package com.dsouzam.api.stocks.model.data;
+package com.dsouzam.api.stocks.model;
 
 import lombok.Data;
 

@@ -2,12 +2,11 @@ package com.dsouzam.api.stocks.model;
 
 import java.util.List;
 
-import com.dsouzam.api.stocks.model.data.NamedURI;
-import com.dsouzam.api.stocks.model.data.WatchListData;
+import com.dsouzam.api.stocks.model.dto.WatchListDTO;
 
 public class WatchList {
 
-	private WatchListData watchListData;
+	private WatchListDTO watchListData;
 	private List<NamedURI> stocks;
 
 	public String getURI() {
